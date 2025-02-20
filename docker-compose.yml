@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:14
+    container_name: Argonix
+    environment:
+      POSTGRES_USER: Argonix
+      POSTGRES_PASSWORD: Argonix3323
+      POSTGRES_DB: Argonix_DB
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres:/var/lib/postgresql
+volumes:
+  postgres:

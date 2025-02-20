@@ -1,0 +1,9 @@
+1. npm run docker:exec
+
+PostgresSQLはデフォルトrootユーザーを使用
+docker-compose.ymlで指定した、ユーザーを指定
+
+
+2. psql -U Argonix
+
+https://qiita.com/H-A-L/items/fe8cb0e0ee0041ff3ceb
